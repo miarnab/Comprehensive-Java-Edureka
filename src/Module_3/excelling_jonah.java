@@ -14,15 +14,15 @@ public class excelling_jonah {
 	int calculate(int x,int y){
 		a=x;
 		b=y;
-		int sum=0;
-		sum=x+y;
-		return sum;
+		int p=1;
+		p=x*y;
+		return p;
 	}
 	double calculate(double x,double y) {
 		c=x;
 		d=y;
-		double sum=0.00;
-		sum=c+d;
-		return sum;
+		double p=1.00;
+		p=c*d;
+		return p;
 	}
 }

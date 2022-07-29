@@ -14,8 +14,8 @@ public class excelling_jonah_main {
 		double d=Double.parseDouble(br.readLine());
 		excelling_jonah ob=new excelling_jonah();
 		int res1=ob.calculate(a, b);
-		System.out.println("The sum integer numbers is: "+res1);
+		System.out.println("The product of integer numbers is: "+res1);
 		double res2=ob.calculate(c, d);
-		System.out.println("The sum of float numbers is: "+res2);
+		System.out.println("The product of float numbers is: "+res2);
 	}
 }
